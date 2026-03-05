@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Urban Taste</title>
+  <meta name="description" content="Contact Urban Taste for reservations, private events, or general inquiries." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">Urban<span>Taste</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Menu & Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>We'd Love to Hear From You</h1>
+        <p class="subtitle">
+          Questions about the menu, private events, or reservations? Send us a message and we'll respond soon.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <h2>Visit or Reach Out</h2>
+          <p>
+            Urban Taste is located in the heart of the city, just a short walk from the central station.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <strong>Address</strong>
+              <p>123 Market Street<br />City Center</p>
+            </li>
+            <li>
+              <strong>Phone</strong>
+              <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+            </li>
+            <li>
+              <strong>Email</strong>
+              <p><a href="mailto:hello@urbantaste.com">hello@urbantaste.com</a></p>
+            </li>
+            <li>
+              <strong>Hours</strong>
+              <p>Open daily from 5:00 PM – 11:00 PM</p>
+            </li>
+          </ul>
+          <div class="map-placeholder">
+            <p>Map preview placeholder. Embed a real map here later if desired.</p>
+          </div>
+        </div>
+
+        <div>
+          <form class="card form" id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" name="name" required />
+              <p class="form-error" data-for="contact-name"></p>
+            </div>
+            <div class="form-row">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" required />
+              <p class="form-error" data-for="contact-email"></p>
+            </div>
+            <div class="form-row">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" required />
+              <p class="form-error" data-for="contact-subject"></p>
+            </div>
+            <div class="form-row">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="4" required></textarea>
+              <p class="form-error" data-for="contact-message"></p>
+            </div>
+            <button type="submit" class="btn primary full-width">Send Message</button>
+            <p class="form-success" id="contact-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div>
+        <a href="index.html" class="logo footer-logo">Urban<span>Taste</span></a>
+        <p class="footer-text">123 Market Street, City Center<br />Open daily from 5:00 PM</p>
+      </div>
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html#menu">Menu</s></li>
+          <li><a href="services.html#booking">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+          <li><a href="mailto:hello@urbantaste.com">hello@urbantaste.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Urban Taste. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

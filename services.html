@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu & Booking - Urban Taste</title>
+  <meta name="description" content="Explore the Urban Taste menu, special experiences, and book a table online." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">Urban<span>Taste</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Menu & Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Our Offerings</p>
+        <h1>Seasonal Menu & Experiences</h1>
+        <p class="subtitle">
+          From intimate dinners to group celebrations, discover how you can experience Urban Taste.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Menu Highlights</p>
+          <h2>Curated For Every Craving</h2>
+        </header>
+        <div class="menu-grid">
+          <div class="menu-column">
+            <h3>Starters</h3>
+            <ul class="menu-list">
+              <li>
+                <div>
+                  <h4>Roasted Beet Salad</h4>
+                  <p>Goat cheese, candied walnuts, citrus vinaigrette</p>
+                </div>
+                <span class="price">$12</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Crispy Calamari</h4>
+                  <p>Lemon aioli, smoked paprika</p>
+                </div>
+                <span class="price">$14</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Urban Fries</h4>
+                  <p>Truffle oil, parmesan, house herb blend</p>
+                </div>
+                <span class="price">$10</span>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-column">
+            <h3>Mains</h3>
+            <ul class="menu-list">
+              <li>
+                <div>
+                  <h4>Seared Salmon</h4>
+                  <p>Charred asparagus, lemon caper sauce</p>
+                </div>
+                <span class="price">$26</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Wild Mushroom Risotto</h4>
+                  <p>Creamy arborio rice, pecorino, herbs</p>
+                </div>
+                <span class="price">$24</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Urban Burger</h4>
+                  <p>Aged cheddar, caramelized onions, brioche bun</p>
+                </div>
+                <span class="price">$18</span>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-column">
+            <h3>Desserts & Drinks</h3>
+            <ul class="menu-list">
+              <li>
+                <div>
+                  <h4>Salted Caramel Panna Cotta</h4>
+                  <p>Vanilla bean, sea salt, brittle</p>
+                </div>
+                <span class="price">$11</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Midnight Espresso</h4>
+                  <p>Vodka, espresso, coffee liqueur</p>
+                </div>
+                <span class="price">$13</span>
+              </li>
+              <li>
+                <div>
+                  <h4>Zero-Proof Citrus Spritz</h4>
+                  <p>Grapefruit, tonic, rosemary</p>
+                </div>
+                <span class="price">$9</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experiences">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Experiences</p>
+          <h2>More Than Just Dinner</h2>
+        </header>
+        <div class="grid three-cols">
+          <article class="card feature-card">
+            <h3>Chef's Tasting</h3>
+            <p>Let our chef surprise you with a seasonal multi-course menu.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Private Events</h3>
+            <p>Book our mezzanine level for birthdays, launches, and celebrations.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Pairing Nights</h3>
+            <p>Monthly wine and zero-proof pairing experiences with curated menus.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container booking-grid">
+        <div>
+          <header class="section-header left">
+            <p class="eyebrow">Reservations</p>
+            <h2>Book Your Table</h2>
+            <p>
+              Reserve a spot in just a few clicks. For groups larger than 8, please contact us directly.
+            </p>
+            <ul class="booking-details">
+              <li><strong>Hours:</strong> 5:00 PM – 11:00 PM daily</li>
+              <li><strong>Location:</strong> 123 Market Street, City Center</li>
+              <li><strong>Phone:</strong> <a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+            </ul>
+          </header>
+        </div>
+        <div>
+          <form class="card form" id="booking-form" novalidate>
+            <div class="form-row">
+              <label for="booking-name">Full Name</label>
+              <input type="text" id="booking-name" name="name" required />
+              <p class="form-error" data-for="booking-name"></p>
+            </div>
+            <div class="form-row">
+              <label for="booking-email">Email</label>
+              <input type="email" id="booking-email" name="email" required />
+              <p class="form-error" data-for="booking-email"></p>
+            </div>
+            <div class="form-row two-cols">
+              <div>
+                <label for="booking-date">Date</label>
+                <input type="date" id="booking-date" name="date" required />
+                <p class="form-error" data-for="booking-date"></p>
+              </div>
+              <div>
+                <label for="booking-time">Time</label>
+                <input type="time" id="booking-time" name="time" required />
+                <p class="form-error" data-for="booking-time"></p>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="booking-guests">Number of Guests</label>
+              <select id="booking-guests" name="guests" required>
+                <option value="">Select...</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8+</option>
+              </select>
+              <p class="form-error" data-for="booking-guests"></p>
+            </div>
+            <div class="form-row">
+              <label for="booking-notes">Special Requests (optional)</label>
+              <textarea id="booking-notes" name="notes" rows="3" placeholder="Allergies, celebrations, seating preferences..."></textarea>
+            </div>
+            <button type="submit" class="btn primary full-width">Confirm Booking</button>
+            <p class="form-success" id="booking-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div>
+        <a href="index.html" class="logo footer-logo">Urban<span>Taste</span></a>
+        <p class="footer-text">123 Market Street, City Center<br />Open daily from 5:00 PM</p>
+      </div>
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html#menu">Menu</a></li>
+          <li><a href="services.html#booking">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+          <li><a href="mailto:hello@urbantaste.com">hello@urbantaste.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Urban Taste. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
